@@ -1,6 +1,17 @@
+import { Post } from "./Post";
+
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <>
+      <Post 
+        author="Leonardo" 
+        content="Content do post do Leo" 
+      />
+      <Post 
+        author="Larissa" 
+        content="Content do post do Lari" 
+      />
+    </>
   )
 }
 
